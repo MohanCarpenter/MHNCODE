@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043329462129364D00E075BA /* MHNimage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049AC8782124406100B34227 /* MHNimage.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		044A789821288A83000E7C87 /* TMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A789721288A83000E7C87 /* TMP.swift */; };
 		0497802421247B2800778D72 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497802321247B2800778D72 /* ChatView.swift */; };
 		049780302124808200778D72 /* MYMHN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497802F2124808200778D72 /* MYMHN.swift */; };
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043329462129364D00E075BA /* MHNimage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
