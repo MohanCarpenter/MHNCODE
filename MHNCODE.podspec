@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MHNCODE"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A short description of MHNCODE."
 
   s.homepage     = "https://www.mhncode.com"
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/MohanCarpenter/MHNCODE.git", :tag => "1.0.1" }
 
 
-  s.source_files  = '/*.swift'
+  s.source_files  = 'MHNCODE/*.swift'
   
 
 
