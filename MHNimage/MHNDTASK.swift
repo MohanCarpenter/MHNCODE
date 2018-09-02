@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MHNDTASK: NSObject {
+open class MHNDTASK: NSObject {
     open class func sharedIn() -> MHNDTASK { // creat a shared instance class variable
         //
         return MHNDTASK()
