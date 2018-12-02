@@ -8,9 +8,7 @@
 
 import UIKit
 
-class MYMHN: NSObject {
 
-}
 extension UIButton {
     
     func createRectangleButton(buttonPositionX: Double, buttonPositionY: Double ,buttonWidth: Double, buttonHeight: Double, buttonTilte: String) {
