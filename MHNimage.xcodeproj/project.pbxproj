@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		043329462129364D00E075BA /* MHNimage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049AC8782124406100B34227 /* MHNimage.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		044A789821288A83000E7C87 /* TMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A789721288A83000E7C87 /* TMP.swift */; };
 		0497802421247B2800778D72 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497802321247B2800778D72 /* ChatView.swift */; };
 		049780302124808200778D72 /* MYMHN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0497802F2124808200778D72 /* MYMHN.swift */; };
 		049AC87D2124406100B34227 /* MHNimage.h in Headers */ = {isa = PBXBuildFile; fileRef = 049AC87B2124406100B34227 /* MHNimage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04EFDF3121B3FED00092A5F3 /* AppImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFDF3021B3FED00092A5F3 /* AppImage.swift */; };
+		04EFDF3521B401410092A5F3 /* TMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFDF3321B401410092A5F3 /* TMP.swift */; };
+		04EFDF3621B401410092A5F3 /* MHNDTASK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFDF3421B401410092A5F3 /* MHNDTASK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		044A789721288A83000E7C87 /* TMP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMP.swift; sourceTree = "<group>"; };
 		0497802321247B2800778D72 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		0497802F2124808200778D72 /* MYMHN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYMHN.swift; sourceTree = "<group>"; };
 		049AC8782124406100B34227 /* MHNimage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MHNimage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		049AC87B2124406100B34227 /* MHNimage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHNimage.h; sourceTree = "<group>"; };
 		049AC87C2124406100B34227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04EFDF3021B3FED00092A5F3 /* AppImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImage.swift; sourceTree = "<group>"; };
+		04EFDF3321B401410092A5F3 /* TMP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TMP.swift; sourceTree = "<group>"; };
+		04EFDF3421B401410092A5F3 /* MHNDTASK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHNDTASK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			children = (
 				049AC87A2124406100B34227 /* MHNimage */,
 				049AC8792124406100B34227 /* Products */,
+				04EFDF3221B400D10092A5F3 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,12 +61,20 @@
 			children = (
 				049AC87B2124406100B34227 /* MHNimage.h */,
 				04EFDF3021B3FED00092A5F3 /* AppImage.swift */,
+				04EFDF3421B401410092A5F3 /* MHNDTASK.swift */,
+				04EFDF3321B401410092A5F3 /* TMP.swift */,
 				0497802F2124808200778D72 /* MYMHN.swift */,
-				04AA8A23213BFD6B0065C14F /* MHNDTASK.swift */,
 				0497802321247B2800778D72 /* ChatView.swift */,
 				049AC87C2124406100B34227 /* Info.plist */,
 			);
 			path = MHNimage;
+			sourceTree = "<group>";
+		};
+		04EFDF3221B400D10092A5F3 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +147,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AA8A21213BFCF70065C14F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0497802421247B2800778D72 /* ChatView.swift in Sources */,
-				044A789821288A83000E7C87 /* TMP.swift in Sources */,
+				04EFDF3521B401410092A5F3 /* TMP.swift in Sources */,
 				049780302124808200778D72 /* MYMHN.swift in Sources */,
+				04EFDF3621B401410092A5F3 /* MHNDTASK.swift in Sources */,
 				04EFDF3121B3FED00092A5F3 /* AppImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
